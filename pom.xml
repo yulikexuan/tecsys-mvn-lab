@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tecsys</groupId>
+    <artifactId>tecsys-mvn-bom</artifactId>
+    <version>2021.1.0-0-0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>tecsys-mvn-bom</name>
+    <description>tecsys-mvn-bom project</description>
+
+    <modules>
+        <module>tecsys-all-dependencies</module>
+        <module>tecsys-meta-web</module>
+    </modules>
+
+</project>
