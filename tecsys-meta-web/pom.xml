@@ -10,7 +10,7 @@
         <groupId>com.tecsys</groupId>
         <artifactId>tecsys-all-dependencies</artifactId>
         <version>2021.1.0-0-0-SNAPSHOT</version>
-        <relativePath />
+        <relativePath>../tecsys-all-dependencies</relativePath>
 	</parent>
     
     <artifactId>tecsys-meta-web</artifactId>
