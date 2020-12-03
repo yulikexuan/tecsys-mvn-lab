@@ -162,13 +162,8 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
                 <configuration>
-                    <excludes>
-                        <exclude>org.apache.commons:commons-collections4</exclude>
-                    </excludes>
                     <allowSnapshots>true</allowSnapshots>
                     <processParent>true</processParent>
-                    <processDependencies>true</processDependencies>
-                    <processDependencyManagement>true</processDependencyManagement>
                 </configuration>
             </plugin>
 
