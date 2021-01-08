@@ -1,5 +1,31 @@
 # Maven BOM Lab
 
+### Config ``` versions-maven-plugin ```
+
+  ```  
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>versions-maven-plugin</artifactId>
+        <version>${maven-versions-plugin.version}</version>
+        <configuration>
+            <allowSnapshots>true</allowSnapshots>
+            <processParent>true</processParent>
+        </configuration>
+    </plugin>
+  ```
+
+### Lock down SNAPSHOT versions
+
+- ``` mvn versions:lock-snapshots ```
+
+### Unlock SNAPSHOT versions
+
+- ``` mvn versions:unlock-snapshots ```  
+
+### Revert: Restores the pom from the initial backup
+
+- ``` mvn versions:revert ```
+
 ## A BOM Example
 
   ```

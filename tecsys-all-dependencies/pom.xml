@@ -105,6 +105,10 @@
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>versions-maven-plugin</artifactId>
                     <version>${maven-versions-plugin.version}</version>
+                    <configuration>
+                        <allowSnapshots>true</allowSnapshots>
+                        <processParent>true</processParent>
+                    </configuration>
                 </plugin>
 
                 <plugin>
@@ -161,10 +165,6 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
-                <configuration>
-                    <allowSnapshots>true</allowSnapshots>
-                    <processParent>true</processParent>
-                </configuration>
             </plugin>
 
         </plugins>
